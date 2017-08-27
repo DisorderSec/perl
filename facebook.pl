@@ -8,7 +8,7 @@ if(!defined($ARGV[0] && $ARGV[1])) {
 
 system('clear');
 print "=====================================\n";
-print "Usage: perl $0 login wordlist.txt\n";
+print "Uso: perl $0 login wordlist.txt\n";
 print "=====================================\n";
 exit; }
 
@@ -78,6 +78,8 @@ else
 {
 print "\033[1;32m\n########################################################\n";
 print "[+] \033[1;32mPassword Cracked: $password\n";
+print "\033[1;32m########################################################\n\n";
+print "\033[1;32mDisorderSEC\n";
 print "\033[1;32m########################################################\n\n";
 close SSL;
 exit;
